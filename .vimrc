@@ -48,3 +48,9 @@ autocmd FileType python set autoindent
 " Comments
 nmap <C-_> <plug>NERDCommenterToggle
 vmap <C-_> <plug>NERDCommenterToggle
+
+" remap window switching
+map <C-H> <C-W>h<C-W>_
+map <C-L> <C-W>l<C-W>_
+map <C-J> <C-W>j<C-W>_
+map <C-K> <C-W>k<C-W>_
